@@ -1,0 +1,21 @@
+.banner {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/wYv7f4J.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.banner .banner-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.banner .banner-info h1 {
+    position: relative;
+    font-size: 2.5rem; 
+    color: white;
+}
