@@ -1,3 +1,44 @@
-h4 {
-    color: aquamarine;
+.whatIveDone {
+    text-align: center;
+    color: gray;
+    margin: 80px 0px;
+}
+.wwdContainer {
+    background-color: gray;
+    height:60vh;
+    text-align: center;
+}
+.speaker {
+    color: white;
+    padding: 50px 70px 10px 70px;
+}
+.speakerQuote {
+    color: white;
+    padding: 0px 30px;
+}
+hr {
+    width: 50%;
+    text-align: left;
+}
+.speakerPic {
+    height: 60%;
+    margin-top: 30px;
+}
+/* everything below is for the second container */
+.wwdContainer2 {
+    background-color: white;
+    height:60vh;
+    text-align: center;
+}
+.random {
+    color: black;
+    padding: 50px 70px 10px 70px;
+}
+.randomQuote {
+    color: black;
+    padding: 0px 30px;
+}
+.randomPic {
+    height: 60%;
+    margin-top: 30px;
 }
