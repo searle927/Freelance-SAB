@@ -24,22 +24,33 @@ function Navigation(props) {
           <h1 className="logo">SHARIFA.COM</h1>
         </Link>
         <ul className="nav">
-        <Link to="/" id="home" className="nav">
+        <Link to="/" id="whoWeAre" className="nav">
             <li className="nav-items" id="nav-zero" onClick={handleMenuToggle}>
-              Home
+              Who We Are
             </li>
           </Link>
-          <Link to="/aboutMe" id="aboutMe" className="nav">
+          <Link to="/whatWeDo" id="whatWeDo" className="nav">
             <li className="nav-items" id="nav-one" onClick={handleMenuToggle}>
-              About Me
+            What We Do
             </li>
           </Link>
 
-          <Link to="/bookMe" id="bookMe" className="nav">
+          <Link to="/ourImpact" id="ourImpact" className="nav">
             <li className="nav-items" id="nav-three" onClick={handleMenuToggle}>
-              Book Me
+              Our Impact
             </li>
           </Link>
+          <Link to="/virtualOffice" id="virtualOffice" className="nav">
+            <li className="nav-items" id="nav-three" onClick={handleMenuToggle}>
+              Virtual Office
+            </li>
+          </Link>
+          <Link to="/vlogBlog" id="vlogBlog" className="nav">
+            <li className="nav-items" id="nav-three" onClick={handleMenuToggle}>
+              Vlog/Blog
+            </li>
+          </Link>
+
         </ul>
 
         <div

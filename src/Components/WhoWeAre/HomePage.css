@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+}
+.sections {
+    border: black solid 4px;
+    width: 23vw;
+    /* height: 50vh; */
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 35px 12em;
+}
+.info {
+    margin: .5em 1.5em;
+}
+img {
+    height: 28vw;
+}

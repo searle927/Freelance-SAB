@@ -23,7 +23,7 @@ a {
  a:hover {
     text-decoration: underline black;
 } 
-#home.nav, #aboutMe.nav, #bookMe.nav {
+#whoWeAre.nav, #whatWeDo.nav, #ourImpact.nav, #virtualOffice.nav, #vlogBlog.nav {
     margin-top: 0px;
 }
 .nav-items {
@@ -158,7 +158,7 @@ a {
     .nav {
         color: white;
         font-size: 25px;
-        margin-top: 25px
+        margin-top: 25px;
     }
     .dropdown-menu.show {
         visibility: hidden;
