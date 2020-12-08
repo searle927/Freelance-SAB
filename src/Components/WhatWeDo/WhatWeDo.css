@@ -5,7 +5,7 @@
 }
 .wwdContainer {
     background-color: gray;
-    height:60vh;
+    height: 800px;
     text-align: center;
 }
 .speaker {
@@ -21,13 +21,13 @@ hr {
     text-align: left;
 }
 .speakerPic {
-    height: 60%;
+    width: 371px;
     margin-top: 30px;
 }
 /* everything below is for the second container */
 .wwdContainer2 {
     background-color: white;
-    height:60vh;
+    height: 800px;
     text-align: center;
 }
 .random {

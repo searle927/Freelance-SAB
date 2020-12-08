@@ -36,7 +36,7 @@ function Navigation(props) {
           </Link>
 
           <Link to="/ourImpact" id="ourImpact" className="nav">
-            <li className="nav-items" id="nav-three" onClick={handleMenuToggle}>
+            <li className="nav-items" id="nav-two" onClick={handleMenuToggle}>
               Our Impact
             </li>
           </Link>
@@ -46,7 +46,7 @@ function Navigation(props) {
             </li>
           </Link>
           <Link to="/vlogBlog" id="vlogBlog" className="nav">
-            <li className="nav-items" id="nav-three" onClick={handleMenuToggle}>
+            <li className="nav-items" id="nav-four" onClick={handleMenuToggle}>
               Vlog/Blog
             </li>
           </Link>
@@ -61,20 +61,30 @@ function Navigation(props) {
       </div>
 
       <div className={`dropdown-menu ${showMenu ? "show" : ""}`}>
-        <Link to="/" id="home" className="header-item">
+        <Link to="/" id="whoWeAre" className="header-item">
           <h1 className="nav-link" id="nav-one" onClick={handleMenuToggle}>
-            Home
+            Who We Are
           </h1>
         </Link>
-        <Link to="/aboutMe" id="aboutMe" className="header-item">
+        <Link to="/whatWeDo" id="whatWeDo" className="header-item">
           <h1 className="nav-link" id="nav-one" onClick={handleMenuToggle}>
-            About Me
+            What We Do
           </h1>
         </Link>
 
-        <Link to="/bookMe" id="bookMe" className="header-item">
+        <Link to="/ourImpact" id="ourImpact" className="header-item">
           <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
-            Book Me
+            Our Impact
+          </h1>
+        </Link>
+        <Link to="/virtualOffice" id="virtualOffice" className="header-item">
+          <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
+            Virtual Office
+          </h1>
+        </Link>
+        <Link to="/vlogBlog" id="vlogBlog" className="header-item">
+          <h1 className="nav-link" id="nav-two" onClick={handleMenuToggle}>
+            Vlog Blog
           </h1>
         </Link>
 
